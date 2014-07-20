@@ -1,0 +1,124 @@
+.titlefont a:link {
+    color: #333;
+    text-decoration: none;
+}
+
+.titlefont a:visited {
+  text-decoration: none;
+  color: #333;
+}
+
+.titlefont a:hover {
+  text-decoration: none;
+  color: red;
+}
+
+.titlefont a:active {
+  text-decoration: none;
+  color: #333;
+}
+
+body {
+    margin: auto;
+
+}
+
+a:link {
+  color: #333333;
+  text-decoration: none;
+}
+a:visited {
+  text-decoration: none;
+  color: #333333;
+}
+a:hover {
+  text-decoration: none;
+  color: #cccccc;
+}
+a:active {
+  text-decoration: none;
+  color: #333333;
+}
+
+.rule { border-top:1px solid #ccc;}
+body,td,th {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 14px;
+  color: #333;
+  line-height:20px;
+}
+.titlefont {font-family:"Lato"; font-size:14px; text-transform:uppercase;}
+.quotefont {font-size:18px; line-height:30px;}
+.socialfont {font-family:"Lato"; font-size:12px; text-transform:uppercase;}
+
+.socialfont a:link {
+  color: #333;
+  text-decoration: none;
+}
+.socialfont a:visited {
+  text-decoration: none;
+  color: #333;
+}
+.socialfont a:hover {
+  text-decoration: none;
+  color: #CCC;
+}
+.socialfont a:active {
+  text-decoration: none;
+  color: #333;
+}
+.container {
+  width:800px;
+  height:350px;
+  padding:1px;
+  border:1px #2a231d;
+  -webkit-box-sizing:border-box;
+  -moz-box-sizing:border-box;
+  box-sizing:border-box;
+  background: black;
+  position: absolute;
+  margin-bottom: 20px;
+
+}
+.slider_wrapper{
+  overflow: hidden;
+  position: relative;
+  height:400px;
+  top:auto;
+
+
+}
+#image_slider{
+
+  position: relative;
+  height: auto;
+  list-style: none;
+  overflow: hidden;
+  float: relative;
+  /*Chrom default padding for ul is 40px */
+  padding:0px;
+  margin:0px;
+}
+#image_slider li{
+  position: relative;
+  float: left;
+}
+.nvgt{
+  position:absolute;
+  top: 150px;
+  height: 50px;
+  width: 30px;
+  opacity: 0.6;
+}
+.nvgt:hover{
+  opacity: 0.9;
+}
+#prev{
+  background: #000 url('https://dl.dropboxusercontent.com/u/65639888/image/prev.png') no-repeat center;
+  left: 0px;
+}
+#next{
+  background: #000 url('https://dl.dropboxusercontent.com/u/65639888/image/next.png') no-repeat center;
+  right: 0px;
+}
+

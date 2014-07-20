@@ -1,0 +1,50 @@
+.container{
+  height:400px;
+  width: 100%;
+  border:1px #2a231d;
+  -webkit-box-sizing:border-box;
+  -moz-box-sizing:border-box;
+  box-sizing:border-box;
+  background: black;
+  margin-left: auto;
+  margin-right: auto;
+  position: absolute;
+}
+.slider_wrapper{
+  overflow: hidden;
+  position: absolute;
+  height:400px;
+  width: 100%;
+}
+
+#image_slider{
+  position: absolute;
+  list-style: none;
+  overflow: hidden;
+}
+
+#image_slider li{
+  position: absolute;
+}
+
+.nvgt{
+  position:absolute;
+  top: 150px;
+  height: 50px;
+  width: 30px;
+  opacity: 0.6;
+}
+
+.nvgt:hover{
+  opacity: 0.9;
+}
+
+#prev{
+  background: #000 url('https://dl.dropboxusercontent.com/u/65639888/image/prev.png') no-repeat center;
+  left: 0px;
+}
+
+#next{
+  background: #000 url('https://dl.dropboxusercontent.com/u/65639888/image/next.png') no-repeat center;
+  right: 0px;
+}
